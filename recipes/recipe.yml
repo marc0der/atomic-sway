@@ -9,8 +9,6 @@ modules:
     repos:
       - https://download.docker.com/linux/fedora/docker-ce.repo
     install:
-      - lightdm
-      - slick-greeter
       - zsh
       - neovim
       - docker-ce
@@ -18,10 +16,6 @@ modules:
       - containerd.io
       - docker-buildx-plugin
       - docker-compose-plugin
-    remove:
-      - sddm
-      - firefox
-      - podman
 
   - type: default-flatpaks
     notify: true

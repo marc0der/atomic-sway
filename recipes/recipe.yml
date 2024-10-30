@@ -2,7 +2,7 @@ name: atomic-sway
 description: Fedora Atomic Sway with extras
 
 base-image: quay.io/fedora-ostree-desktops/sericea
-image-version: 40
+image-version: 41
 
 modules:
   - type: rpm-ostree

@@ -16,6 +16,7 @@ modules:
       - containerd.io
       - docker-buildx-plugin
       - docker-compose-plugin
+      - power-profiles-daemon
 
   - type: default-flatpaks
     notify: true

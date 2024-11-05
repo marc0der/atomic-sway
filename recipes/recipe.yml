@@ -2,7 +2,7 @@ name: atomic-sway
 description: Fedora Atomic Sway with extras
 
 base-image: quay.io/fedora-ostree-desktops/sericea
-image-version: 41
+image-version: 40
 
 modules:
   - type: rpm-ostree
@@ -17,7 +17,9 @@ modules:
       - docker-buildx-plugin
       - docker-compose-plugin
       - power-profiles-daemon
-
+    remove:
+      - thunar
+      
   - type: default-flatpaks
     notify: true
     system:
@@ -32,6 +34,9 @@ modules:
         - com.plexamp.Plexamp
         - com.valvesoftware.Steam
         - org.mozilla.firefox
+        - org.kde.kate
+        - org.kde.okular
+        - org.kde.dolphin
 
   - type: signing
   

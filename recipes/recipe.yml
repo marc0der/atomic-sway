@@ -25,16 +25,18 @@ modules:
       repo-name: flathub
       repo-title: "Flathub (system-wide)"
       install:
-        - com.borgbase.Vorta
         - com.brave.Browser
+        - com.borgbase.Vorta
         - com.discordapp.Discord
         - com.jetbrains.IntelliJ-IDEA-Ultimate
         - com.plexamp.Plexamp
-        - com.valvesoftware.Steam
-        - org.mozilla.firefox
-        - org.kde.kate
-        - org.kde.okular
         - org.kde.dolphin
+        - org.kde.gwenview
+        - org.kde.kalk
+        - org.kde.kate
+        - org.kde.konsole
+        - org.kde.okular
+        - org.mozilla.firefox
 
   - type: signing
   

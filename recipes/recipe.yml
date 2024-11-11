@@ -29,7 +29,6 @@ modules:
       install:
         - com.brave.Browser
         - com.borgbase.Vorta
-        - com.discordapp.Discord
         - com.jetbrains.IntelliJ-IDEA-Ultimate
         - com.plexamp.Plexamp
         - org.kde.dolphin

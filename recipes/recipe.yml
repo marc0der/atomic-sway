@@ -8,6 +8,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://download.docker.com/linux/fedora/docker-ce.repo
+      - https://copr.fedorainfracloud.org/coprs/maveonair/jetbrains-mono-nerd-fonts
     install:
       - zsh
       - neovim
@@ -17,7 +18,7 @@ modules:
       - docker-buildx-plugin
       - docker-compose-plugin
       - power-profiles-daemon
-      - jetbrains-mono-fonts
+      - jetbrains-mono-nerd-fonts
       
   - type: default-flatpaks
     notify: true

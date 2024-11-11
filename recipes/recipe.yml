@@ -18,7 +18,6 @@ modules:
       - docker-buildx-plugin
       - docker-compose-plugin
       - power-profiles-daemon
-      - jetbrains-mono-nerd-fonts
       
   - type: default-flatpaks
     notify: true

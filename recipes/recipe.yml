@@ -17,7 +17,7 @@ modules:
       - containerd.io
       - docker-buildx-plugin
       - docker-compose-plugin
-      - cpupower
+      - kernel-tools
       - power-profiles-daemon
       - jet-brains-mono-nerd-fonts
       

@@ -34,6 +34,7 @@ modules:
         - com.plexamp.Plexamp
         - org.kde.dolphin
         - org.kde.gwenview
+        - org.kde.haruna
         - org.kde.kalk
         - org.kde.kate
         - org.kde.konsole

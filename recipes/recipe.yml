@@ -9,13 +9,10 @@ modules:
     repos:
       - https://download.docker.com/linux/fedora/docker-ce.repo
       - https://copr.fedorainfracloud.org/coprs/aquacash5/nerd-fonts/repo/fedora-%OS_VERSION%/aquacash5-nerd-fonts-fedora-%OS_VERSION%.repo
-      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       # copies in .repo file from files/rpm-ostree/my-repository.repo to /etc/yum.repos.d/
       - 1password.repo
     optfix:
       - 1Password
-    keys:
-      - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
     install:
       - zsh
       - neovim
@@ -27,7 +24,6 @@ modules:
       - docker-compose-plugin
       - kernel-tools
       - power-profiles-daemon
-      - brave-browser
       - 1password
       - jet-brains-mono-nerd-fonts
       

@@ -11,6 +11,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/aquacash5/nerd-fonts/repo/fedora-%OS_VERSION%/aquacash5-nerd-fonts-fedora-%OS_VERSION%.repo
       # copies in .repo file from files/rpm-ostree/my-repository.repo to /etc/yum.repos.d/
       - 1password.repo
+    optfix:
+      - 1Password
     install:
       - zsh
       - neovim

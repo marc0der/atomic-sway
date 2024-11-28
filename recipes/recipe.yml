@@ -9,7 +9,11 @@ modules:
     repos:
       - https://download.docker.com/linux/fedora/docker-ce.repo
       - https://copr.fedorainfracloud.org/coprs/aquacash5/nerd-fonts/repo/fedora-%OS_VERSION%/aquacash5-nerd-fonts-fedora-%OS_VERSION%.repo
-      - https://downloads.1password.com/linux/rpm/stable/x86_64
+      - name: "1password"
+        baseurl: "https://downloads.1password.com/linux/rpm/stable/1password.repo"
+        enabled: 1
+        gpgcheck: 1
+        gpgkey: "https://downloads.1password.com/linux/keys/1password.asc"
     keys:
       - https://downloads.1password.com/linux/keys/1password.asc
     install:

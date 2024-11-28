@@ -16,6 +16,7 @@ modules:
     install:
       - zsh
       - neovim
+      - flatpak-xdg-utils
       - docker-ce
       - docker-ce-cli
       - containerd.io

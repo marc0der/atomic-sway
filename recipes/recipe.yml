@@ -25,7 +25,6 @@ modules:
       - kernel-tools
       - power-profiles-daemon
       - 1password
-      - 1password-cli
       - jet-brains-mono-nerd-fonts
       
   - type: default-flatpaks

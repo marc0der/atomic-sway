@@ -14,8 +14,6 @@ modules:
         enabled: 1
         gpgcheck: 1
         gpgkey: "https://downloads.1password.com/linux/keys/1password.asc"
-    keys:
-      - https://downloads.1password.com/linux/keys/1password.asc
     install:
       - zsh
       - neovim
@@ -26,6 +24,8 @@ modules:
       - docker-compose-plugin
       - kernel-tools
       - power-profiles-daemon
+      - 1password
+      - 1password-cli
       - jet-brains-mono-nerd-fonts
       
   - type: default-flatpaks

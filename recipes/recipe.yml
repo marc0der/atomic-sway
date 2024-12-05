@@ -24,6 +24,11 @@ modules:
       - docker-compose-plugin
       - kernel-tools
       - power-profiles-daemon
+      - qt5-qtbase-devel
+      - qt5-qtwebengine-devel
+      - qt5-qtwebsockets-devel
+      - qtkeychain-qt5-devel
+      - openconnect
       - 1password
       - jet-brains-mono-nerd-fonts
       

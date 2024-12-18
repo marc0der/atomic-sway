@@ -13,8 +13,11 @@ modules:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       # copies in .repo file from files/rpm-ostree/my-repository.repo to /etc/yum.repos.d/
       - 1password.repo
+    keys:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
     optfix:
       - 1Password
+      - brave.com
     install:
       - zsh
       - neovim

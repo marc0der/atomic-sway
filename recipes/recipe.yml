@@ -8,8 +8,8 @@ modules:
   - type: rpm-ostree
     repos:
       - https://download.docker.com/linux/fedora/docker-ce.repo
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       - https://copr.fedorainfracloud.org/coprs/aquacash5/nerd-fonts/repo/fedora-%OS_VERSION%/aquacash5-nerd-fonts-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/yuezk/globalprotect-openconnect/repo/fedora-%OS_VERSION%/yuezk-globalprotect-openconnect-fedora-%OS_VERSION%.repo
       # copies in .repo file from files/rpm-ostree/my-repository.repo to /etc/yum.repos.d/
       - 1password.repo
     optfix:
@@ -30,6 +30,7 @@ modules:
       - qt5-qtwebsockets-devel
       - qtkeychain-qt5-devel
       - 1password
+      - brave-browser
       - jet-brains-mono-nerd-fonts
       
   - type: default-flatpaks

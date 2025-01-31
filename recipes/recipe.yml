@@ -30,6 +30,7 @@ modules:
       - qtkeychain-qt5-devel
       - 1password
       - jet-brains-mono-nerd-fonts
+      - hyprland
       
   - type: default-flatpaks
     notify: true

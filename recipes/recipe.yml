@@ -31,6 +31,7 @@ modules:
       - 1password
       - jet-brains-mono-nerd-fonts
       - hyprland
+      - wayland-protocols-devel
       
   - type: default-flatpaks
     notify: true

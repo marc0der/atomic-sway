@@ -32,6 +32,7 @@ modules:
       - jet-brains-mono-nerd-fonts
       - hyprland
       - wayland-protocols-devel
+      - libwayland-client
       
   - type: default-flatpaks
     notify: true

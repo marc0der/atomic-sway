@@ -43,7 +43,6 @@ modules:
       install:
         - com.borgbase.Vorta
         - com.jetbrains.IntelliJ-IDEA-Ultimate
-        - com.plexamp.Plexamp
         - org.kde.dolphin
         - org.kde.gwenview
         - org.kde.haruna
